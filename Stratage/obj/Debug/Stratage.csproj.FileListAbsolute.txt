@@ -1,0 +1,5 @@
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\Stratage\bin\Debug\Stratage.dll.config
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\Stratage\bin\Debug\Stratage.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\Stratage\bin\Debug\Stratage.pdb
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\Stratage\obj\Debug\Stratage.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\Stratage\obj\Debug\Stratage.pdb

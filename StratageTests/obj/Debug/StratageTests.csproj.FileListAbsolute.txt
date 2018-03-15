@@ -1,0 +1,9 @@
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\obj\Debug\StratageTests.csprojResolveAssemblyReference.cache
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\bin\Debug\StratageTests.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\bin\Debug\StratageTests.pdb
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\bin\Debug\Stratage.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\bin\Debug\Stratage.pdb
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\obj\Debug\StratageTests.dll
+C:\Users\nikit\OneDrive\documents\visual studio 2015\Projects\Stratage\StratageTests\obj\Debug\StratageTests.pdb

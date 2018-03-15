@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn:WashOut" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="compiler" targetNamespace="urn:WashOut" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:WashOut" />
+  </wsdl:types>
+  <wsdl:message name="execute">
+    <wsdl:part xsi:nillable="true" name="code" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="execute_response">
+    <wsdl:part xsi:nillable="true" name="value" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="compiler_port">
+    <wsdl:operation name="execute">
+      <wsdl:input message="tns:execute" />
+      <wsdl:output message="tns:execute_response" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="compiler_binding" type="tns:compiler_port">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="execute">
+      <soap:operation soapAction="execute" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:WashOut" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:WashOut" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="service">
+    <wsdl:port name="compiler_port" binding="tns:compiler_binding">
+      <soap:address location="http://127.0.0.1:3000/compiler/action" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

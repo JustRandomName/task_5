@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Stratage.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Stratage_localhost_JavaCompilerWebServiceImplService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1986/wss/hello</Value>
+    </Setting>
+    <Setting Name="Stratage_WebReference_service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://127.0.0.1:3000/compiler/action</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
